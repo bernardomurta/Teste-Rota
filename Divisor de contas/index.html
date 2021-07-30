@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Divisor de contas</title>
+
+    <!-- Importação de fontes-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Divisor de contas</h1>
+    <!-- Obtenção dos consumidores -->
+    <div>
+      <p>Quem consumiu?</p>
+      <p id="obs">(Insira todos os consumidores antes de prosseguir)</p>
+      <input type="text" id="nome" name="nome" placeholder="Nome" />
+      <button id="adicionarPessoa" onclick="adicionaPessoa()">Adicionar</button>
+      <br />
+      <div class="pessoaadicionada" id="pessoaadicionada"></div>
+      <br />
+      <button id="novapessoa" onclick="limpaCampoNome()">Nova Pessoa</button>
+    </div>
+
+    <br />
+    <br />
+
+    <!--Obtençãos dos itens consumidos e seus valores-->
+    <div>
+      <p>O que será dividido, qual o valor e por quem?</p>
+      <div id="itens">
+        <input type="text" id="item" name="item" placeholder="Produto" />
+
+        <input type="number" id="preco" name="preco" placeholder="00.00" />
+
+        <button id="adicionarItem" onclick="adicionarItem()">Adicionar</button>
+        <br />
+
+        <!-- Espaço para os nomes obtidos -->
+        <div class="nomes">
+          <div id="nomesParaItens"></div>
+        </div>
+        <br />
+
+        <div id="avisoItem"></div>
+        <br />
+
+        <button id="novapessoa" onclick="limpaCampoItem()">Novo Consumo</button>
+
+        <br />
+      </div>
+    </div>
+    <br />
+    <!-- 10% -->
+    <div>
+      <br />
+      <p>Alguém vai pagar os 10%?</p>
+      <div id="nomes10%"></div>
+    </div>
+    <br />
+    <button id="calculaConta" class="final" onclick="divisorConta()">
+      Calcular valores
+    </button>
+    <hr />
+    <!-- Valores que cada um irá pagar -->
+    <div id="resultados"></div>
+    <br />
+    <br />
+    <br />
+
+    <script src="script.js"></script>
+  </body>
+</html>

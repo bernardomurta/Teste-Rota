@@ -1,0 +1,14 @@
+input {
+  text-align: center;
+}
+
+input[type='text'] {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+hr {
+  margin-top: 70px;
+}

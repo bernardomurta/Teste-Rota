@@ -1,0 +1,2 @@
+Para o funcionamento do exercício, basta inserir um valor (entre 1 e 3999) na barra -"Informe um número" e, automaticamente, logo abaixo ira aparecer o símbolo que representa este número na forma romana.
+Na segunda parte do exercício, ocorre a conversão de números romanos para arábicos.

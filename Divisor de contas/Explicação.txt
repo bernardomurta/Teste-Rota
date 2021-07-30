@@ -1,0 +1,2 @@
+Para o funcionamento, basta inicialmente inserir os nomes das pessoas que irão participar da divisão da conta, posteriormente, inserir o produto que foi consumido, seu respectivo valor e depois selecionar quais pessoas pagarão por este produto.
+Por fim, basta clicar no nome das pessoas que irão pagar a taxa adicional de 10% e clicar em calcular valores.

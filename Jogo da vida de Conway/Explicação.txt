@@ -1,0 +1,2 @@
+Para a execução do jogo da vida de Conway, existem duas maneiras de selecionar os quadros que você deseja para iniciar o jogo, ou você clica diretamente no quadro, ou então é só inserir as coordenadas de 'x' e 'y' nas barras apresentadas e clicar em "submit" para verificá-las.
+Após isso, é só clicar em "Próximo", para a execução do jogo.
